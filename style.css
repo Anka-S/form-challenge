@@ -5,11 +5,21 @@
 }
 
 body {
-    background-image: linear-gradient(300deg, rgba(94,47,17,1) 1%, rgba(253,29,29,1) 48%, rgba(252,176,69,1) 98%);
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.995);
 }
 .form {
     min-width: 100px;
     display: flex;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(300deg, rgba(94,47,17,1) 1%, rgba(253,29,29,1) 48%, rgba(252,176,69,1) 98%);
+
 }
 .btn{
     background-color: rgb(8, 87, 31);
@@ -27,4 +37,23 @@ p {
 h1 {
     font-style: italic;
     font-weight: bold;
+}
+textarea{
+    height: 150px;
+    width: 100%;
+}
+@media screen and (min-width: 768px){
+
+    .form {
+        margin: 20px 18%;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+
+    .form {
+        margin: 20px 30%;
+    }
+    
 }
